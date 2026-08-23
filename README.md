@@ -1,19 +1,15 @@
-# surge-steamcn-downloads
+# Surge ruleset: Steam 中国下载
 
-A Surge rule set of the CDN hosts Steam uses for game downloads in mainland China.
+Steam 中国地区的游戏下载会用不同的域名，而且经常有新的，比如`gdtstream.com`, `sycontroller.com`, `clngaa.com`, `eccdnx.com`… 这个 Surge ruleset 适合默认代理，针对中国区网站走白名单的用户。
 
-Steam in China serves game files from third-party CDNs under hostnames that change often (`gdtstream.com`, `sycontroller.com`, `clngaa.com`, `eccdnx.com`, …), not from `steamcontent.com`. The entries here come from real download traffic observed on a Surge gateway, plus the hosts listed by the usual public rule projects. Store, community and API hosts are deliberately left out so they keep whatever policy you already give them.
+所有域名都通过监控真实的 Steam 下载所获得。这些地址只针对游戏下载，不影响商店、社区和 API 正常走代理。
 
-Add one line to your profile, above your general proxy rules:
+### 使用方法
 
-```
-RULE-SET,https://raw.githubusercontent.com/Logoutx/surge-steamcn-downloads/main/SteamCN.list,DIRECT
-```
+在 Surge profile 里加一行：
 
-Mirror if raw.githubusercontent.com is slow for you:
+> RULE-SET,https://raw.githubusercontent.com/Logoutx/surge-steamcn-downloads/main/SteamCN.list,DIRECT
 
-```
+镜像地址：
+
 RULE-SET,https://cdn.jsdelivr.net/gh/Logoutx/surge-steamcn-downloads@main/SteamCN.list,DIRECT
-```
-
-The list is regenerated after downloads; the header of `SteamCN.list` carries the date.
