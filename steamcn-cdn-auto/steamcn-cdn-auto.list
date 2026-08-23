@@ -1,4 +1,4 @@
-# Steam mainland-China download CDN hosts — https://github.com/Logoutx/surge-steamcn-downloads
+# steamcn-cdn-auto — Steam mainland-China download CDN hosts — https://github.com/Logoutx/surge-ruleset-patching
 # Generated 2026-08-23
 DOMAIN,alibaba.cdn.steampipe.steamcontent.com
 DOMAIN,client-update.queniuqe.com
