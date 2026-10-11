@@ -1,5 +1,5 @@
 # steamcn-cdn-auto — Steam mainland-China download CDN hosts — https://github.com/Logoutx/surge-ruleset-patching
-# Generated 2026-08-23
+# Generated 2026-10-11
 DOMAIN,alibaba.cdn.steampipe.steamcontent.com
 DOMAIN,client-update.queniuqe.com
 DOMAIN,csgo.wmsj.cn
@@ -17,6 +17,7 @@ DOMAIN-SUFFIX,cm.steampowered.com
 DOMAIN-SUFFIX,cyngaa.com
 DOMAIN-SUFFIX,eccdnx.com
 DOMAIN-SUFFIX,gdtstream.com
+DOMAIN-SUFFIX,manlaxy.com
 DOMAIN-SUFFIX,pphimalayanrt.com
 DOMAIN-SUFFIX,smogfly.com
 DOMAIN-SUFFIX,steamchina.com
