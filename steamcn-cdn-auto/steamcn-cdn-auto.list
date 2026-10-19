@@ -1,5 +1,22 @@
 # steamcn-cdn-auto — Steam mainland-China download CDN hosts — https://github.com/Logoutx/surge-ruleset-patching
-# Generated 2026-10-12
+# Generated 2026-10-19
+DOMAIN,101.72.221.45
+DOMAIN,101.72.221.46
+DOMAIN,101.72.236.158
+DOMAIN,101.72.236.168
+DOMAIN,101.72.236.171
+DOMAIN,116.136.20.42
+DOMAIN,119.176.25.174
+DOMAIN,125.36.103.95
+DOMAIN,125.36.103.96
+DOMAIN,202.108.153.96
+DOMAIN,202.108.153.99
+DOMAIN,210.57.59.40
+DOMAIN,61.182.141.221
+DOMAIN,61.182.141.222
+DOMAIN,61.182.141.225
+DOMAIN,61.182.141.226
+DOMAIN,61.182.141.227
 DOMAIN,alibaba.cdn.steampipe.steamcontent.com
 DOMAIN,client-update.queniuqe.com
 DOMAIN,csgo.wmsj.cn
@@ -28,4 +45,5 @@ DOMAIN-SUFFIX,steamserver.net
 DOMAIN-SUFFIX,steamstatic.com
 DOMAIN-SUFFIX,steamusercontent.com
 DOMAIN-SUFFIX,sycontroller.com
+DOMAIN-SUFFIX,ts.net
 DOMAIN-SUFFIX,wmsjsteam.com
